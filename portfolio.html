@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #19051b;
+            font-family: 'Roboto', sans-serif;
+        }
+        #aboutme {
+            padding: 50px
+        }
+        #content {
+            background-color: #380c4b;
+            width: 75%;
+            margin: auto;
+            padding-top: 50px;
+        }
+        #aboutme {
+            margin: auto;
+            width: 75%;
+            display: flex;
+        }
+        #heading {
+            display: inline;
+            width:100%;
+            color: #A77DF2;
+            background-color: #5B107C;
+            border-bottom: 5px solid #A77DF2;
+            position: fixed;
+            padding: 25px 10px 25px 10px;
+            margin: 0;
+            top: 0;
+            left: 0;
+        }
+        #heading a{
+            color: #A77DF2;
+            text-decoration: none;
+        }
+        #social {
+            float: left;
+        }
+        #navigation {
+            float: right;
+            margin-right: 25px
+        }
+        #social a, #navigation a{
+            padding: 8px;
+            font-size: 1.5em;
+        }
+        #picture img{
+            height: 16em;
+        }
+        #picture {
+            flex: 1;
+            margin: auto;
+            padding-right: 50px;
+        }
+        #namebio {
+            flex: 3;
+            margin: auto;
+        }
+        #education {
+            margin: auto;
+            width: 75%;
+        }
+        #education h3 {
+            width: 100%;
+            margin: auto;
+        }
+        h3 {
+            color: #A77DF2;
+            font-size: 3em;
+            font-family: 'Raleway', sans-serif;
+        }
+        h4 {
+            color: #A77DF2;
+            font-size: 2em;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            margin: auto;
+        }
+        #education h3 {
+            text-align: center;
+        }
+        #education ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        #education li {
+            margin: 10px;
+            font-size: 1.5em;
+            color: #A77DF2;
+        }
+        #experience h3 {
+            text-align: center;
+        }
+        #experience {
+            width: 75%;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+        p {
+            color: #8242ED;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">
+        <div id="social">
+            <a href="https://github.com/ChristianWells123">Github</a>
+            <a href="https://www.linkedin.com/in/christian-wells-84a6901a2/">Linkedin</a>
+        </div>
+        <div id="navigation">
+            <a href="#aboutme">About me</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <!--<a href="#projects">Projects</a>!-->
+        </div>
+    </div>
+    <div id="content">
+        <div id="aboutme">
+            <div id="picture">
+                <img src="./MyFace.jpg" />
+            </div>
+            <div id="namebio">
+                <h3>Christian Wells</h3>
+                <p>Hello! My name is Christian. I'm a Computer Science major at Texas Tech University. Although I currently live in Lubbock, I was born and raised in Austin, Texas.</p>
+            </div>
+        </div>
+        <div id="education">
+            <h3>Education</h3>
+            <h4>Texas Tech University</h4>
+            <table>
+                <tr>
+                    <td><p>Expected Graduation: Spring 2022</p></td>
+                    <td><p>GPA: 3.55</p></td>
+                </tr>
+            </table>
+            <p style="text-align: center;">Classes</p>
+            <ul>
+                <li>Software Engineering I & II</li>
+                <li>Parallel and Concurrent Programming</li>
+                <li>Object-Oriented Programming</li>
+                <li>Computer Networking</li>
+                <li>Computer Archetecture</li>
+                <li>Operating Systems</li>
+                <li>Assembly Language</li>
+            </ul>
+        </div>
+        <br />
+        <div id="experience">
+            <h3>Experience</h3>
+            <h4> Student Research Intern - University of Texas Applied Research Labs</h4>
+            <p>Working as a Student Research Intern, I collaborated with a team of about 10 people contracted to develop an application for a government contrator. During my internship, I used technologies such as Django and RMSis to develop and test a web application.</p>
+        </div>
+        <!---<div id="projects">
+            
+        </div>!-->
+    </div>
+</body>
